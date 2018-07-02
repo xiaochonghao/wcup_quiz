@@ -1,18 +1,24 @@
 # 关于世界杯竞猜的一个项目
 
+## 技术概述
+
+* 前台是由公司的前端人员楠姐用Vue写的两个界面
+* 后台是由django restframe work框架写的
+* 部署采用uwsgi + nginx，前台代码打包到template目录，nginx配置文件直接将template目录配一个与后台不重复的url
+
 ## 地址详情
 
 * 访问域名地址：
 
-    http://wcup.home.capitalonline.net:8001
+  ../
 
 * ip端口地址：
 
-    10.131.16.62:8001
+    ../
 
 * django admin登陆后台地址：
 
-    http://wcup.home.capitalonline.net:8001/admin/
+    ../admin/
 
 ## 录入赛程的操作步骤
 
