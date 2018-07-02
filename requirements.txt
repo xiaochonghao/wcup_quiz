@@ -1,0 +1,6 @@
+Django==1.11.1
+django-rest-swagger==2.2.0
+djangorestframework==3.6.3
+python-dateutil==2.7.3
+uWSGI==2.0.17
+httplib2==0.11.3
