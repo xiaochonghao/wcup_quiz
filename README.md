@@ -2,11 +2,11 @@
 
 ## 技术概述
 
-* 前台是由公司的前端人员楠姐用Vue写的两个界面
-* 后台是由django restframe work框架写的，因为开发时间问题有限，录入赛程、盘口信息采用django admin后台开发的
-* 登陆环节，使用两种验证方式：a.企业微信传的code登陆；b.公司OA系统的账号密码登陆
-* 后台结算采用的是crontab + django custome command结合实现的
-* 部署采用uwsgi + nginx + docker，前台代码打包到template目录，nginx配置文件直接将template目录配一个与后台不重复的url
+* 前台是由公司的前端人员楠姐用`Vue`写的两个界面
+* 后台是由`django restframe work`框架写的，因为开发时间问题有限，录入赛程、盘口信息采用`django admin`后台开发的
+* 登陆环节，使用两种验证方式：a.企业微信传的`code`登陆；b.公司OA系统的账号密码登陆
+* 后台结算采用的是`crontab + django custome command`结合实现的
+* 部署采用`uwsgi + nginx + docker`，前台代码打包到`template`目录，`nginx`配置文件直接将`template`目录配一个与后台不重复的url
 
 ## 地址详情
 
