@@ -5,7 +5,8 @@
 * 前台是由公司的前端人员楠姐用Vue写的两个界面
 * 后台是由django restframe work框架写的，因为开发时间问题有限，录入赛程、盘口信息采用django admin后台开发的
 * 登陆环节，使用两种验证方式：a.企业微信传的code登陆；b.公司OA系统的账号密码登陆
-* 部署采用uwsgi + nginx，前台代码打包到template目录，nginx配置文件直接将template目录配一个与后台不重复的url
+* 后台结算采用的是crontab + django custome command结合实现的
+* 部署采用uwsgi + nginx + docker，前台代码打包到template目录，nginx配置文件直接将template目录配一个与后台不重复的url
 
 ## 地址详情
 
